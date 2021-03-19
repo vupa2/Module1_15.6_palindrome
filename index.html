@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <title>[*Bài tập] Kiểm tra từ đối xứng</title>
+</head>
+<body>
+  <h1>[*Bài tập] Kiểm tra từ đối xứng</h1>
+  <script>
+    function isPalindrome(str) {
+      if (str.length === 0 || str.length === 1) return true;
+      if (str.charAt(0) === str.charAt(str.length - 1)) return isPalindrome(str.substring(1, str.length - 1));
+      return false;
+    }
+  </script>
+</body>
+</html>
