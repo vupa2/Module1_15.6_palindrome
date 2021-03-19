@@ -1,0 +1,1 @@
+# Module_15.6_palindrome
